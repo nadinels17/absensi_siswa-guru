@@ -1,0 +1,444 @@
+.logo-dubes {
+    width: 95px;
+    height: 90px;
+    position: absolute;
+    left: 1250px;
+    top: -30px;
+}
+
+.judul {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 4vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.judul-2 {
+    text-align: center;
+    font-size: 3vh;
+    margin-top: -10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.baris-1 {
+    margin-bottom: 5vh;
+}
+
+.card-hari {
+    width: 35vh;
+    height: 30vh;
+    font-family: 'Poppins', sans-serif;
+    margin-top:40px;
+}
+
+.card-senin {
+    position: relative;
+    left: 28vh;
+}
+
+.card-rabu {
+    position: relative;
+    right: 10vh;
+}
+
+.card-kamis {
+    position: relative;
+    left: 48vh;
+    margin-top:40px;
+}
+
+.hari {
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 35px;
+    font-size: 35px;
+    color: #0A2D64;
+}
+
+/* card nama guru yang jaga */
+.card-nama-guru {
+    border-radius: 0 0 8px 8px;
+    width: 35vh;
+    height: 15vh;
+    position: relative;
+    top: 27px;
+    left: -1px;
+    background-color: #0A2D64;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nama-atas {
+    padding-top: 5px;
+    margin-bottom: 3px;
+}
+
+.row-1 form input {
+    height: 35px;
+    width: 25%;
+    background-color: #e6e7eb;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.excel {
+    width:300px;
+    height:40px;
+    margin-left:300px;
+    margin-top:20px;
+}
+
+.excelsiswa {
+    width: 160px;
+    height:40px;
+    margin-left:950px;
+    margin-top:-70px;
+}
+
+.absenserch {
+    margin-top: 20px !important; 
+    margin-left:20px !important; 
+    color:black !important;
+    width: 250px !important;
+}
+
+#profil a {
+    color: #18272F;
+    position: relative;
+    text-decoration: none;
+    padding: .5em;
+}
+
+#profil a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #18272F;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+#profil a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+#profil {
+    list-style: none;
+}
+
+.row-1 form input {
+    height: 35px;
+    width: 40%;
+    background-color: #e6e7eb;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+table {
+    text-align: center;
+}
+
+.page-item a {
+    color: black;
+    border: none;
+}
+
+.page-item a:hover {
+    color: white;
+    background-color: rgb(26, 48, 244);
+}
+
+.page-number a {
+    color: black;
+    text-align: center;
+    width: 50px;
+    border: none;
+}
+
+.page-number a:hover {
+    color: white;
+    background-color: #0A2D64;
+}
+
+.profile-user {
+    width: 20vh;
+}
+
+.img-login {
+    position: relative;
+    margin-left:160vh; 
+    width: 20vh;
+}
+
+.judul-login {
+    font-weight: 800;
+
+    line-height: 96px;
+    margin-left:70vh; 
+    font-size: 15vh;
+}
+
+.img-add {
+    position: absolute; 
+    margin-left: 75%; 
+    margin-top: -30px;
+}
+
+
+hr {
+    width: 735px;
+    border: 1px solid white;
+    position: relative;
+    left: 190px;
+}
+
+.input-login {
+    background-color: #D9D9D9;
+    border: 1px solid #fff;
+    width: 740px;
+}
+
+
+.btn-login {
+    background-color: #D9D9D9;
+    border: 1px solid #fff;
+    color: black;
+    font-weight: bolder;
+    width: 300px;
+    margin-top: 30px;
+}
+
+
+.btn-login:hover {
+    background-color: #0A2D64;
+    border: 1px solid white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#h2-proadmin {
+    position: absolute;
+    width: 220px;
+    height: 59px;
+    left: 370px;
+    top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 54px;
+    text-align: center;
+    margin-top: 31px;
+    display: inline;
+
+}
+
+#hr1 {
+    position: absolute;
+    width: 70%;
+    height: 0px;
+    left: 305px;
+    top: 100px;
+    border: 2px solid;
+    border-radius: 10px;
+
+}
+
+.hr-user {
+    margin-left: -160px;
+}
+
+.profile {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    object-fit: contain;
+}
+
+
+
+#col2 {
+    text-align: center;
+}
+
+#cont2 {
+    margin-top: 90px;
+}
+
+#img2 {
+    position: absolute;
+    top: 35px;
+    width: 95px;
+    height: 85px;
+    left: 1120px;
+
+
+}
+
+.btn-logout {
+
+    width: 191px;
+    height: 53px;
+    background: #0A2D64;
+    border-radius: 8px;
+}
+
+.btn-edit {
+
+    width: 191px;
+    height: 53px;
+    background: #0A2D64;
+    border-radius: 8px;
+}
+.table-profguru {
+    margin-left: -50px;
+    text-align: left;
+
+}
+
+
+
+
+.form-regissiswa {
+    margin: auto;
+    height: 45px;
+    width: 50%;
+    left: 90%;
+    top: 23%;
+    margin-left: 300px;
+}
+
+.input-siswa {
+    margin: 10px;
+    
+}
+
+.btn:hover {
+    background-color: #0A2D64;
+    color: white;
+}
+
+.btn-siswa {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-weight: bolder;
+    color: white;
+    margin: auto;
+    width: 200px;
+    height: px;
+    left: 901px;
+    top: 559px;
+    border-radius: 8px;
+    margin-top: 5%;
+    color: #0A2D64;
+    border-color: #0A2D64;
+
+}
+
+#img2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1120px;
+    margin-top: -50px;
+
+}
+
+.fa-eye {
+    
+    position: absolute;
+    top: 45%;
+    right: 27%;
+    cursor: pointer;
+}
+
+#password-toggle {
+    border: none;
+    position: absolute;
+    top: 51%;
+    right: 25%;
+    background-color: transparent;
+    background: none;
+    width: 44px;
+}
+
+.btn-guru:hover {
+    background-color: grey;
+    transition: 600ms;
+    color: #D9D9D9;
+}
+
+.btn-guru {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-weight: bolder;
+    color: #D9D9D9;
+    margin: auto;
+    width: 200px;
+    border-radius: 8px;
+    margin-top: 5%;
+   background-color:#0A2D64;
+
+}
+
+
+
+.form-regisguru {
+    height: 45px;
+    width: 50%;
+    left: 10%;
+    top: 23%;
+}
+
+
+
+.input-dataguru {
+    margin: 10px;
+}
+
+.h2-regisguru {
+    margin-top: -50px;
+}
+
+#img3 {
+    position: absolute;
+    top: 5px;
+    width: 100px;
+    height: 100px;
+    left: 1120px;
+
+}
+
+footer{
+     
+}
+
+@media screen and (max-width: 922px){
+
+    
+}
+
+@media screen and (max-width: 576px){
+    
+    
+}
+
+@media screen and (max-width: 350px){
+    
+    
+}

@@ -1,0 +1,404 @@
+body {
+    margin: 10px;
+    padding: 10px;
+}
+
+.img-login {
+    margin-left: 570px;
+    width: 40vh;
+}
+
+.h2-login {
+    margin-left: 570px;
+    color: white;
+}
+
+.card-login {
+    margin-left: 480px;
+    width: 70vh;
+    height: 80vh;
+    margin-top: 40px;
+}
+
+.h2-masuk {
+    font-size: 50px;
+    margin-top: 20px;
+    color: #0A2D64;
+    margin-left: 110px;
+}
+
+.hr-login {
+    border: 2px solid #001c49;
+}
+
+
+.buton-login {
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px 	#89CFF0,
+                -6px -6px 12px #ffffff;
+   }
+   
+.buton-login::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #0A2D64 0%,  #89CFF0 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+.buton-login:hover::before {
+    width: 9em;
+   }
+
+.baris {
+    display: inline-flex !important;
+}
+
+.kartu-absen{
+    width:12rem; 
+    border-radius: 20px;
+    color: #0A2D64;
+    background-color: #D9D9D9;
+}
+
+.logo-absen {
+    width: 100px;
+    margin-left: 10px;
+}
+
+.i-info {
+    width: 30px;
+    height: 30px;
+}
+
+.h2-judul {
+    font-size: 30px;
+}
+
+.judul-absen {
+    color: #0A2D64;
+}
+
+.info {
+    margin-top: -30px;
+    margin-left: 190vh;
+}
+
+.buton-tambah {
+    margin-left: 10px;
+    width: 45px;
+    height: 40px;
+    background-color: #0A2D64;
+    border-radius: 10px;
+}
+
+.izin {
+    display: flex;
+    margin-left: 85vh;
+}
+
+.add {
+    width: 16px;
+    height: 16px;
+}
+
+.ket {
+    margin-left: 40px;
+}
+
+.nama-kelas{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.pilih-siswa {
+    width: 180px;
+    height: 40px;
+}
+
+.kirim {
+    margin-top: 20px;
+    width: 110px !important;
+    height: 40px;
+    background-color: #0A2D64;
+    border-radius: 10px;
+}
+
+
+.gelombang {
+    margin-top: -20px;
+}
+
+.hr-absen {
+    border: 1px solid black;
+    width: 48rem;
+}
+
+.buton-back {
+    background-color: #0A2D64;
+    border-radius: 10px;
+    border: 1px solid;
+    width: 110px !important;
+    height: 40px;
+    text-decoration: none;
+
+}
+
+.div_image_v {
+    border-bottom: none;
+    position: relative;
+    text-align: center;
+    margin: -20px -20px 0;
+    border-radius: 5px 5px 0 0;
+    padding: 35px;
+  }
+
+  .image {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e2feee;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+    animation: animate .6s linear alternate-reverse infinite;
+    transition: .6s ease;
+  }
+  
+  .image .icon-v {
+    color: #0afa2a;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .jumlah {
+    width: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+   
+@media screen and (max-width: 922px){
+
+    
+}
+
+@media screen and (max-width: 576px){
+    .img-login {
+    margin-left: 300px;
+    width: 20vh;
+    }
+
+    .h2-login {
+        margin-left: 570px;
+        color: white;
+    }
+    
+}
+
+@media screen and (max-width: 390px){
+
+    body {
+        overflow-x: hidden;
+    }
+    .img-login {
+    margin-left: 110px;
+    width: 20vh;
+    margin-top: 30px;
+    }
+
+    .h2-login {
+        margin-left: 120px;
+        color: white;
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .card-login {
+    margin-left: 70px;
+    width: 30vh;
+    height: 15vh;
+    margin-top: 40px;
+    }
+    
+    .h2-masuk {
+        font-size: 20px;
+        margin-top: 20px;
+        color: #0A2D64;
+        margin-left: 70px;
+    }
+    
+    .hr-login {
+        border: 2px solid #001c49;
+    }
+
+    .buton-login {
+        margin-top: -25px;
+        width: 6em;
+        height: 3em;
+        border-radius: 20em;
+        font-size: 10px;
+        font-family: inherit;
+        border: none;
+        overflow: hidden;
+        z-index: 1;
+        box-shadow: 6px 6px 12px 	#89CFF0,
+                    -6px -6px 12px #ffffff;
+       }
+
+       .nama-kelas{
+        font-size: 20px;
+        margin-top: 30px !important;
+        }
+
+        .info {
+            margin-top: -30px;
+            margin-left: 45vh;
+        }
+
+        .logo-absen {
+            width: 50px;
+            margin-top: -40px;
+        }
+        
+        .i-info {
+            width: 20px;
+            height: 20px;
+            margin-left: -20px;
+        }
+
+        .judul-absen {
+            color: #0A2D64;
+            font-size: 20px;
+        }
+
+        .kartu-absen{
+            width:12rem; 
+            border-radius: 20px;
+            color: #0A2D64;
+            background-color: #D9D9D9;
+            margin-top: 10px;
+        }
+
+        .hr-absen {
+            border: 1px solid black;
+            width: 20rem;
+        }
+
+        .h2-judul {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        .buton-tambah {
+            margin-left: 10px;
+            width: 25px;
+            height: 25px;
+            margin-top: 20px;
+        }
+
+        .add {
+            width: 15px;
+            height: 15px;
+            margin-top: -16px;
+            margin-left: -7px;
+        }
+
+        .pilih-siswa {
+            width: 150px;
+            height:30px ;
+            font-size: 10px;
+            margin-left: -60px;
+        }
+
+        .pilih-ket {
+            width: 100px;
+            height:30px ;
+            font-size: 10px;
+            
+        }
+
+
+        .kirim {
+            margin-top: 20px;
+            width: 50px;
+            height: 30px;
+            font-size: 10px;
+        }
+        
+        .btn-text {
+            margin-left: -4px;
+        }
+
+        .izin {
+            display: flex;
+            margin-left: 200px;
+            margin-top: -30px;
+        }
+
+        .ket {
+            margin-left: 40px;
+            font-size: 20px;
+        }
+        
+        .nama-siswa {
+            font-size: 15px;
+        }
+
+        .keter {
+            font-size: 15px;
+        }
+
+        .gelombang {
+            margin-top: 60px;
+            width: 120vh;
+            margin-left: -300px;
+        }
+        
+        body {
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .tabel-absen {
+            width: 30px;
+            border: white;
+            margin-top: -10px;
+        }
+
+        .tbody-absen {
+            margin-top: -10px;
+        }
+
+        .riset-absen {
+            margin-top: -35px ;
+        }
+
+        .tambah-siswa {
+            height: 30px;
+            margin-top: 20px;
+        }
+
+        .tb-data {
+            font-size: 10px;
+        }
+        
+}
+

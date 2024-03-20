@@ -1,0 +1,127 @@
+.log-out {
+    margin-left: 50px;
+    margin-top:80px;
+    color: white;
+    text-decoration:none;
+    display: flex;
+}
+.log-out:hover {
+    margin-left: 50px;
+    margin-top:80px;
+    color: red;
+    text-decoration:none;
+    display: flex;
+}
+
+.accordion {
+    background-color: #0A2D64;
+}
+
+.profile-user {
+    width: 100px;
+    position: relative;
+    margin-left: 50px !important;
+    margin-top: 5px !important;
+}
+
+
+.ket-accordion {
+    color: #fff;
+    padding-left: -5px;
+    padding-top: 80px;
+    font-size: 15px;
+}
+
+.logo-dubes {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    left: 1250px;
+    top: -30px;
+}
+
+.judul-login {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: -5px;
+    margin-top: 50px;
+
+}
+
+.bawah-login {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.form-control {
+    background-color: #E9E9E9;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.input-group-text {
+    background-color: white;
+    /* border: 0; */
+}
+
+.btn-primary {
+    font-weight: bolder;
+    width: 200px;
+    margin-top: 30px;
+    background-color: #0A2D64;
+    border: 1px solid white;
+    border-radius: 70px;
+}
+
+.btn-primary:hover {
+    background-color: #1f62ce;
+    border: 1px solid white;
+}
+
+.logout-icon {
+
+    top: 77%;
+    right: 80%;
+    cursor: pointer;
+    background: none;
+
+}
+
+.table-data {
+    text-align: center;
+}
+
+.page-item a {
+    color: black;
+    border: none;
+}
+
+.page-item a:hover {
+    color: white;
+    background-color: rgb(26, 48, 244);
+}
+
+.page-number a {
+    color: black;
+    text-align: center;
+    width: 50px;
+    border: none;
+}
+
+.page-number a:hover {
+    color: white;
+    background-color: #0A2D64;
+}
+
+
+
+#mybutton {
+
+    display: inline;
+    background-color: transparent;
+    border: none;
+}
+
